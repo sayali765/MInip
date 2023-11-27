@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css"> <!-- New CSS for dashboard -->
+    <link rel="stylesheet" href="login.css" >
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <!-- User Dashboard -->
+    <div class="dashboard-container" id="dashboard-container">
+        <!-- Dashboard content will be dynamically added here -->
+    </div>
+    <!-- Login Form -->
+    <div class="login-container" id="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+<!-- Login Form -->
+<div class="login-container" id="login-container">
+    <form id="login-form" onsubmit="return validateForm()">
+        <label for="login-email">Email:</label>
+        <input type="email" id="login-email" name="login-email" required>
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" name="login-password" required>
+        <label for="login-as">Login As:</label>
+        <select id="login-as" name="login-as" required>
+            <option value="student">Student</option>
+            <option value="faculty">Faculty</option>
+            <option value="Admin"> Admin</option>
+        </select>
+
+        <button type="submit">Login</button>
+    </form>
+</div>
+            <!-- Your existing login form code -->
+        </form>
+    </div>
+
+    <!-- User Dashboard -->
+    <div class="dashboard-container" id="dashboard-container">
+        <!-- Dashboard content will be dynamically added here -->
+        <!-- Add content for the user dashboard -->
+        <h2>Welcome to Your Dashboard</h2>
+        <!-- Add more dashboard content as needed -->
+
+        
+    </div>
+    <!-- Footer -->
+    <footer>
+        &copy; 2023 Your Web3 Provider
+    </footer>
+
+    <script defer src="script.js"></script>
+    <!-- New JavaScript for dashboard -->
+</body>
+</html>

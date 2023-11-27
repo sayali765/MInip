@@ -1,0 +1,78 @@
+/* dashboard.css */
+
+
+/* Add this to your existing CSS or create a new CSS file */
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-form {
+    max-width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #35e409;
+}
+
+label {
+    display: inline-flex;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input,
+select {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.dashboard-container {
+    display: none;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container.show {
+    display: block;
+}
+
+.login-container {
+    max-width: 800px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

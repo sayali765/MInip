@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #3498db;
+            padding: 10px;
+        }
+
+        .nav-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .nav-list a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .nav-list a:hover {
+            color: #ecf0f1;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+    </style>
+    <title>QConnect - Sign Up</title>
+</head>
+
+<body>
+    <!-- Navigation Bar 
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+     Sign-Up Page Content 
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form id="signup-form" onsubmit="return validateSignup()">
+            <label for="signup-name">Name:</label>
+            <input type="text" id="signup-name" name="signup-name" required>
+
+            <label for="signup-email">Email:</label>
+            <input type="email" id="signup-email" name="signup-email" required>
+
+            <label for="signup-password">Password:</label>
+            <input type="password" id="signup-password" name="signup-password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <script defer src="script.js"></script>
+
+    <div class="dashboard-container" id="dashboard-container">
+         Dashboard content will be dynamically added here 
+         Add content for the user dashboard 
+        <h2>Welcome to Your Dashboard</h2>
+         Add more dashboard content as needed 
+    </div>
+
+    <script defer src="script.js"></script>
+
+    <script>
+        function handleSignup() {
+            // Perform signup logic here
+            // Assuming signup is successful for demo purposes
+            showDashboard();
+            return false; // Prevent form submission for demo
+        }
+
+        function showDashboard() {
+            const signupContainer = document.querySelector('.container');
+            const dashboardContainer = document.getElementById('dashboard-container');
+
+            signupContainer.style.display = 'none';
+            dashboardContainer.style.display = 'block';
+            dashboardContainer.classList.add('show');
+        }
+    </script> 
+    -->
+<!-- signup.html -->
+
+<head>
+    <!-- Your existing head content -->
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Your existing body content -->
+    <!-- Sign-Up Page Content -->
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form id="signup-form" onsubmit="return handleSignup()">
+            <label for="signup-name">Name:</label>
+            <input type="text" id="signup-name" name="signup-name" required>
+
+            <label for="signup-email">Email:</label>
+            <input type="email" id="signup-email" name="signup-email" required>
+
+            <label for="signup-password">Password:</label>
+            <input type="password" id="signup-password" name="signup-password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <div class="dashboard-container" id="dashboard-container">
+        <!-- Dashboard content will be dynamically added here -->
+        <!-- Add content for the user dashboard -->
+        <h2>Welcome to Your Dashboard</h2>
+        <!-- Add more dashboard content as needed -->
+    </div>
+
+    <script defer src="script.js"></script>
+
+    <script>
+        function handleSignup() {
+            // Perform signup logic here
+            // Assuming signup is successful for demo purposes
+            showDashboard();
+            return false; // Prevent form submission for demo
+        }
+
+        function showDashboard() {
+            const signupContainer = document.querySelector('.container');
+            const dashboardContainer = document.getElementById('dashboard-container');
+
+            signupContainer.style.display = 'none';
+            dashboardContainer.style.display = 'block';
+            dashboardContainer.classList.add('show');
+        }
+    </script>
+</body>
+</html>
